@@ -1,14 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>LOTTO Number Generator</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/Lotto.css">
 </head>
 
 <body>
-
+  <div class="container">
+    <h1>LOTTO Number Generator</h1>
+    <p>6개의 중복 없는 랜덤 숫자: <span id="result"></span></p>
+    <button id="generateButton">숫자 생성</button>
+  </div>
+  <div id="history">
+    <h2>이전 로또 번호</h2>
+    <ul id="historyList"></ul>
+  </div>
+  </div>
+  <button id="downloadButton">저장</button>
+  <!-- Java Script -->
+  <script src="../js/Lotto.js"></script>
 </body>
 
 </html>
